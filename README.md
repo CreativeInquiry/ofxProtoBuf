@@ -11,14 +11,10 @@ Protocol Buffers (a.k.a., protobuf) are Google's language-neutral,
 platform-neutral, extensible mechanism for serializing structured data. You
 can find [protobuf's documentation on the Google Developers site](https://developers.google.com/protocol-buffers/).
 
-The best way to learn how to use protobuf is to follow the tutorials in our
+The best way to learn how to use protobuf is to follow the tutorials in Google's
 developer guide:
 
 https://developers.google.com/protocol-buffers/docs/tutorials
-
-If you want to learn from code examples, take a look at the examples in the
-[examples](examples) directory.
-
 
 Installation
 ------------
