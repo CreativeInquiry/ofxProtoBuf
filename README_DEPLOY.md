@@ -1,4 +1,4 @@
-MyAddon (rename to your addon's name)
+ofxProtoBuf
 =====================================
 
 *This is a template of a README file for your addon. Fill in the relevant sections, and it should already give users a pretty good overview over your awesome addon!*
