@@ -15,11 +15,11 @@
 # and the PG will write to the console the kind of error and in which line it is
 
 meta:
-	ADDON_NAME = ofxAddonTemplate
-	ADDON_DESCRIPTION = ofxAddonTemplate is amazing!
-	ADDON_AUTHOR = @yournamehere
-	ADDON_TAGS = "addon" "template"
-	ADDON_URL = http://github.com/yournamehere/ofxAddonTemplate
+	ADDON_NAME = ofxProtoBuf
+	ADDON_DESCRIPTION = ofxProtoBuf a wrapper for Google Protobuffers!
+	ADDON_AUTHOR = @danzeeeman
+	ADDON_TAGS = "addon" "openFrameworks" "wrapper"
+	ADDON_URL = http://github.com/CreativeInquiry/ofxProtoBuf
 
 common:
 	# dependencies with other addons, a list of them separated by spaces 
@@ -29,7 +29,13 @@ common:
 	# include search paths, this will be usually parsed from the file system
 	# but if the addon or addon libraries need special search paths they can be
 	# specified here separated by spaces or one per line using +=
-	# ADDON_INCLUDES =
+	ADDON_INCLUDES += libs/protobuf/include
+	ADDON_INCLUDES += libs/protobuf/include/google
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler
+	ADDON_INCLUDES += libs/protobuf/include/google/compiler/cpp
+	ADDON_INCLUDES += libs/protobuf/include/google/io
+	ADDON_INCLUDES += libs/protobuf/include/google/stubs
+	ADDON_INCLUDES += libs/protobuf/include/google/util
 	
 	# any special flag that should be passed to the compiler when using this
 	# addon
@@ -99,6 +105,8 @@ android/armeabi-v7a:
 osx:
 	# osx/iOS only, any framework that should be included in the project
 	# ADDON_FRAMEWORKS =
+	ADDON_LIBS += libs/protobuf/lib/libprotobuf.a
+	ADDON_LIBS += libs/protobuf/lib/libprotobuf-lite.a
 ios:
 tvos:
 
