@@ -105,8 +105,8 @@ android/armeabi-v7a:
 osx:
 	# osx/iOS only, any framework that should be included in the project
 	# ADDON_FRAMEWORKS =
-	ADDON_LIBS += libs/protobuf/lib/libprotobuf.a
-	ADDON_LIBS += libs/protobuf/lib/libprotobuf-lite.a
+	ADDON_LIBS += libs/protobuf/lib/osx/libprotobuf.a
+	ADDON_LIBS += libs/protobuf/lib/osx/libprotobuf-lite.a
 ios:
 tvos:
 
