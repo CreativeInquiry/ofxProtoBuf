@@ -17,7 +17,7 @@
 meta:
 	ADDON_NAME = ofxProtoBuf
 	ADDON_DESCRIPTION = ofxProtoBuf a wrapper for Google Protobuffers!
-	ADDON_AUTHOR = @danzeeeman
+	ADDON_AUTHOR = @danzeeeman, @madelinegannon
 	ADDON_TAGS = "addon" "openFrameworks" "wrapper"
 	ADDON_URL = http://github.com/CreativeInquiry/ofxProtoBuf
 
