@@ -18,7 +18,8 @@ https://developers.google.com/protocol-buffers/docs/tutorials
 
 Installation
 ------------
-clone Addon
+Simply clone the addon
+
 Dependencies
 ------------
 None
